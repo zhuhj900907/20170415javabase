@@ -16,7 +16,7 @@ public class MyTryLock {
 				System.out.println(thread.getName() + " " + trylock);
 				if (trylock) {
 					try {
-						System.out.println(thread.getName() + "µÃµ½ÁËËø");
+						System.out.println(thread.getName() + "å¾—åˆ°äº†é”");
 						for (int i = 0; i < 5; i++) {
 							arrayList.add(i);
 						}
@@ -39,7 +39,7 @@ public class MyTryLock {
 				System.out.println(thread.getName() + " " + trylock);
 				if (trylock) {
 					try {
-						System.out.println(thread.getName() + "µÃµ½ÁËËø");
+						System.out.println(thread.getName() + "ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½");
 						for (int i = 0; i < 5; i++) {
 							arrayList.add(i);
 						}
